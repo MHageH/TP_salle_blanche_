@@ -1,16 +1,17 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}
-\contentsline {section}{\numberline {2}Premi\`ere sc\'eance}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}Observation zones actives et nettoyage des plaques}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Oxydation thermique}{2}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Mod\'elisation dopage}{2}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}\'Etude oxyde de champ}{2}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}\'Etude dopage : R-carr\'e}{2}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Retrait du verre de phosphore}{2}{subsection.2.6}
-\contentsline {subsection}{\numberline {2.7}Pr\'esentation Pulv\'erisation cathodique}{2}{subsection.2.7}
-\contentsline {subsection}{\numberline {2.8}D\'epot Aluminium : R-carr\'e Alu }{2}{subsection.2.8}
-\contentsline {section}{\numberline {3}Deuxi\`eme sc\'eance}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}Etalement r\'esine, photolithographie}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Gravure humide de l'aluminium}{2}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Nettoyage RIE face arri\`ere}{2}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Mesure de motif profilom\`etre}{2}{subsection.3.4}
-\contentsline {section}{\numberline {4}Conclusion}{2}{section.4}
+\contentsline {section}{\numberline {2}Caract\'erisation mat\'eriaux}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Substrat}{2}{subsection.2.1}
+\contentsline {section}{\numberline {3}Fiche Proc\'ed\'es}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}\'Etude oxyde de champ}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Nettoyage chimique}{3}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Capacit\'e -- r\'ealisation du di\'electrique}{4}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}Diode -- r\'ealisation de la jonction}{4}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}D\'ep\^ot des contacts m\'etalliques}{4}{subsection.3.5}
+\contentsline {subsection}{\numberline {3.6}Photolithogravure}{5}{subsection.3.6}
+\contentsline {subsection}{\numberline {3.7}Nettoyage face arri\`ere}{5}{subsection.3.7}
+\contentsline {section}{\numberline {4}Fiche Mesures}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Ellipsom\'etrie}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Profilom\'etrie}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Mesure de r\'esistivit\'e -- 4 pointes align\'ees}{6}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Mesure de r\'esistivit\'e – m\'ethode inductive}{6}{subsection.4.4}
+\contentsline {section}{\numberline {5}Conclusion}{7}{section.5}

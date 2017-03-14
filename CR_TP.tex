@@ -37,15 +37,235 @@ Ces proc\'edures sont \`a la base de la creation des salles blanches, qui ont po
 
 Dans notre cas, on va \'etudier la r\'ealisation des 2 parties principaux d'un transistor MOSFET, l'\'element essentiel d'un circuit \'electronique : la jonction PN, et la capacit\'e MOS. Le pr\'esent compte rendu se focalisera sur la partie diode.
 
-\section{Premi\`ere sc\'eance}
+
+\section{Caract\'erisation mat\'eriaux}
+
+\subsection{Substrat}
+\begin{center}
+    \noindent \begin{tabular}[!htb]{ | p{7cm} | p{7cm} |}
+    \hline
+    \textbf{Donn\'ees fabricant} & \textbf{Donn\'ees mesur\'ees} \\
+    \begin{itemize}
+    	\item[-] Orientation $100 \pm 0.5$ deg
+    	\item[-] Dopant
+    	\item[-] Epaisseur $e = 275 \pm 25$ µm
+    	\item[-] R\'esistivit\'e $\rho = 0.2 - 0.4 \phantom{2} \Omega/cm$
+    \end{itemize}
+     &
+	\begin{itemize}
+    	\item[-] R\'esistance de feuille
+    		$R_{carre} = 12.4 \phantom{2} \Omega$
+    	\item[-] R\'esistivit\'e $\rho = 37.2 \times 10^{-2}  \phantom{2} \Omega/cm$
+    	\item[-] Dopage      $N_a = 10^{17} m^{-3}$
+    \end{itemize}
+    \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\clearpage
+
+\section{Fiche Proc\'ed\'es}
+
+\subsection{\'Etude oxyde de champ}
+
+\begin{itemize}
+\item \textbf{Technique}\\
+La technique utilis\'ee pour cette proc\'edure est l'oxydation thermique humide.
+
+\item \textbf{Calculer les temps de croissance n\'ecessaire pour obtenir 500 nm de SiO2 sur silicium par oxydation humide et oxydation s\`eche \`a 1050 C}\\
+
+L'\'epaisseur d'oxydation varie selon la lois suivante :
+\[
+    e^{2} + A \times e = B.t
+\]
+
+Alors :
+\[
+t = \frac{e^{2}}{B} + A\frac{e}{B}
+\]
+
+avec A et B d\'ependant de la temp\'erature.
+
+D'apr\`es les abaques du cours, \`a 1050 C pour une oxydation humide : 
+\begin{itemize} \itemsep -2pt
+\item[-] $B = 3 \times 10^{-1} \mu m^{2}/h$
+\item[-] $B/A = 2.8 \mu m/h$
+\end{itemize}
+
+$\implies t_{humide} = 1 \phantom{2} h$
+
+Pour une oxydation s\`eche :
+
+\begin{itemize} \itemsep -2pt
+\item[-] $B = 1.5 \times 10^{-2} \mu m^{2}/h$
+\item[-] $B/A = 2 \times 10^{-1} \mu m/h$
+\end{itemize}
+
+
+Alors $t_{seche} = 19 \phantom{2} h$
+
+
+\item \textbf{Justifier le choix de la technique utilis\'ee}\\
+L'oxydation s\`eche permet un \'enorme gain de temps et d'\'energie.
+\end{itemize}
+
+\subsection{Nettoyage chimique}
+
+\begin{itemize}
+
+\item \textbf{Etapes du proc\'ed\'e} \\ 
+Pour supprimer l'oxyde qui se forme naturellement lorsqu'on laisse la plaque \`a l'air libre, on r\'ealise un nettoyage chimique.
+\begin{enumerate}\itemsep -2pt
+\item La plaque est plong\'ee dans un bain de Hf pendant 5 secondes.
+\item Rinçage de la plaque \`a l'eau distill\'e puis purifi\'ee
+\item Nouvelle oxydation dans un bain d'acide sulfurique + H2O2 pendant 15 mins. 
+\item Rinçage (cf 2/)
+\item Suppression de la couche d'oxyde form\'ee en r\'ealisant \`a nouveau l'\'etape 1/
+\item Rin\c cage (cf 2/)
+\item S\'echage \`a la centrifugeuse
+\end{enumerate}
+
+\item \textbf{R\^ole de chaque \'etape, cons\'equence sur le caract\`ere hydrophile ou hydrophobe du silicium}
+
+\begin{enumerate}\itemsep -2pt
+\item Supprime l'oxyde naturel. La surface arri\`ere est hydrophile avant corrosion (couche d'oxyde) et hydrophobe apr\`es corrosion (surface de silicium).
+\item Stoppe la corrosion de l'oxyde. On observe que la surface rejette l'eau.
+\item  Emprisonne les impuret\'es qui auraient pu diffuser dans le silicium dans une nouvelle couche d'oxyde. La couche d'oxyde ainsi form\'e est hydrophile et l'eau reste coll\'e pendant le rin\c cage.
+\item Stoppe l'oxydation.
+\item Supprime la couche d'oxyde ainsi que les impuret\'es pr\'esentes dedans. Apr\`es cette \'etape la surface arri\`ere est hydrophobe.
+\item Arr\^ete la corrosion de l'oxyde. 
+\item S\`eche la plaque.
+\end{enumerate}
+
+\end{itemize}
+
+\subsection{Capacit\'e -- r\'ealisation du di\'electrique}
+
+\begin{itemize}
+
+\item \textbf{Technique utilis\'ee, justifier}
+
+\item \textbf{Profil de temp\'erature, expliquer le r\^ole des \'etapes-cl\'es}
+
+\item \textbf{Calcul de l'\'epaisseur th\'eorique d'oxyde, comparer \`a la valeur mesur\'ee. Quelle est l'\'epaisseur de Si
+        consomm\'e pour former cette couche de SiO2 ?}
+\end{itemize}
+
+\subsection{Diode -- r\'ealisation de la jonction}
+
+\begin{itemize}
+
+\item \textbf{Technique de dopage utilis\'ee, citer une technique de dopage alternative }
+
+\item \textbf{Profil de temp\'erature, donn\'ees exp\'erimentales}
+
+\end{itemize}
+
+\subsection{D\'ep\^ot des contacts m\'etalliques}
+
+\begin{itemize}
+
+\item \textbf{Description de la technique de d\'ep\^ot}
+
+\item \textbf{Param\`etre de d\'ep\^ots}
+
+\item \textbf{Epaisseur attendue}
+
+\end{itemize}
+
+\subsection{Photolithogravure}
+
+\begin{itemize}
+
+\item \textbf{Mesures}
+
+\textbf{En d\'eduire la s\'electivit\'e de la gravure} 
+
+\item \textbf{Donn\'ees exp\'erimentales}
+
+\begin{itemize}
+\item[o] Epaisseur de r\'esine attendue
+\item[o] Role du s\'echage
+\item[o] Role du recuit
+
+\end{itemize}
+
+\item \textbf{Gravure aluminium}
+
+\begin{itemize}
+\item[o] Donn\'ees exp\'erimentales
+\item[o] En tenant compte de la vitesse de gravure annonc\'ee, estimer l'\'epaisseur d'aluminium
+\end{itemize}
+
+\item \textbf{retrait r\'esine (m\'ethode)}
+
+\end{itemize}
+
+\subsection{Nettoyage face arri\`ere}
+
+\begin{itemize}
+\item \textbf{pourquoi ? }
+\item \textbf{A quel moment et comment est-il effectu\'e}
+\end{itemize}
+
+
+\clearpage
+
+\section{Fiche Mesures}
+
+\subsection{Ellipsom\'etrie}
+
+\begin{itemize}
+\item \textbf{ D\'ecrire la technique  }
+\item \textbf{ Mesure de l'\'epaisseur d'oxyde de champs \\ 
+Au moins 5 points de mesure diff\'erents, calcul de moyenne et d\'eviation standard}
+\item \textbf{ Mesure de l'\'epaisseur d'oxyde mince (capacit\'e)}
+\end{itemize}
+
+
+\subsection{Profilom\'etrie}
+
+\begin{itemize}
+\item \textbf{ D\'ecrire la technique  }
+\item \textbf{ Mesure de l'\'epaisseur d'oxyde de champs \\ 
+ Comparer \`a la mesure pr\'ec\'edente}
+\item \textbf{ Mesure de l'\'epaisseur d'aluminium. En d\'eduire la vitesse de d\'ep\^ot.}
+\end{itemize}
+
+\subsection{Mesure de r\'esistivit\'e -- 4 pointes align\'ees}
+
+\begin{itemize}
+\item \textbf{ D\'ecrire la technique  }
+\item \textbf{ Substrat \\ 
+  Tableau de mesure, graphique, r\'esistance de feuille, r\'esistivit\'e, dopage}
+\item \textbf{ Jonction PN (t\'emoin diffus\'e pleine plaque ou t\'emoin implant\'e pleine plaque) \\ 
+Tableau de mesure, graphique, r\'esistance de feuille}
+\end{itemize}
+
+    
+
+\subsection{Mesure de r\'esistivit\'e – m\'ethode inductive}
+
+\begin{itemize}
+\item \textbf{ D\'ecrire la technique  }
+\item \textbf{ Substrat \\ 
+   r\'esistance de feuille, comparer aux r\'esultats pr\'ec\'edemment obtenus}
+\item \textbf{ Aluminium \\ 
+r\'esistance de feuille, r\'esistivit\'e ; justifier que la r\'esistance de feuille mesur\'ee est bien celle de
+     l'aluminium}
+\item \textbf{Jonction PN (t\'emoin diffus\'e ou implant\'e pleine plaque) \\
+    r\'esistance de feuille.}
+\end{itemize}
+
+
+\iffalse
 
 \subsection{Observation zones actives et nettoyage des plaques}
 
 \subsection{Oxydation thermique}
 
 \subsection{Mod\'elisation dopage}
-
-\subsection{\'Etude oxyde de champ}
 
 \subsection{\'Etude dopage : R-carr\'e}
 
@@ -64,7 +284,9 @@ Dans notre cas, on va \'etudier la r\'ealisation des 2 parties principaux d'un t
 \subsection{Nettoyage RIE face arri\`ere}
 
 \subsection{Mesure de motif profilom\`etre}
+\fi
 
+\clearpage
 
 \section{Conclusion}
 
