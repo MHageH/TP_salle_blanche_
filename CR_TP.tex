@@ -33,7 +33,7 @@
 \section{Introduction}
 Le d\'eveloppement du monde \'electronique se repose sur la miniaturisation des circuits, en accompagnant la loi de Moore. On passe de la micro\'electronique en nano, ce qui a toujours n\'ecessiter des proc\'edures complexes pour la mise en place de tels d\'efis technologiques. 
 
-Ces proc\'edures sont \`a la base de la creation des salles blanches, qui ont pour aussi pour but d'\'eviter l'introduction des impurt\'ees provenant de l'atmosph\`ere dans les circuits \'electroniques.
+Ces proc\'edures sont \`a la base de la cr\'eation des salles blanches, qui ont pour but d'\'eviter toute intrusion d'impuret\'es pr\'esentes dans l'air \`a l'int\'erieur des circuits \'electroniques. A cette \'echelle, la moindre particule peut compromettre le fonctionnement d'une puce.
 
 Dans notre cas, on va \'etudier la r\'ealisation des 2 parties principaux d'un transistor MOSFET, l'\'element essentiel d'un circuit \'electronique : la jonction PN, et la capacit\'e MOS. Le pr\'esent compte rendu se focalisera sur la partie diode.
 
@@ -273,7 +273,7 @@ Afin de retirer le dopage \`a l'arri\`ere du wafer. Cette \'etape est importante
 
 \subsubsection{M\'ethode de mise en place}
 
-On utilise la m\'ethode RIE (Reactive Ion Etching), on combine m\'ecanisme chimique (qui s\'electionne la couche \`a graver) et m\'ecanisme physique par abrasion anistrope.
+On utilise la m\'ethode RIE (Reactive Ion Etching), on combine m\'ecanisme chimique (qui s\'electionne la couche \`a graver) et un m\'ecanisme physique par abrasion anistrope.
 
 Cette m\'ethode fonctionne \`a l'aide d'un r\'eacteur plasma avec deux \'electrodes, le substrat jouant le rôle de la cathode. Le gaz qui entre dans le r\'eacteur est ionis\'e, et sous l'effet de champ, bombarde notre cible.
 
@@ -304,13 +304,22 @@ On en d\'eduit une moyenne de 524.97 nm.
 
 \subsubsection{Description de la m\'ethode}
 
-La profilom\'etrie est une technique pour mesurer la rugosit\'e d'une surface, ou même sa micro-g\'eom\'etrie. Dans notre cas, une pointe tr\`es fine vient se poser sur un bloc qu'on d\'esire mesurer l'\'epaisseur. Ces blocs sont notamment les plots des diodes qu'on a \'etablie dans les d\'emarches pr\'ec\'edentes. Cette technique est utilis\'ee dans plusieurs \'etapes (apr\`es la gravure humide ainsi que le nettoyage RIE face arri\`ere). 
+La profilom\'etrie est une technique pour mesurer la rugosit\'e d'une surface, ou m\^eme sa micro-g\'eom\'etrie. Dans notre cas, une pointe tr\`es fine vient se poser sur un bloc qu'on d\'esire mesurer l'\'epaisseur. Ces blocs sont notamment les plots des diodes qu'on a \'etablie dans les d\'emarches pr\'ec\'edentes. Cette technique est utilis\'ee dans plusieurs \'etapes (apr\`es la gravure humide ainsi que le nettoyage RIE face arri\`ere). 
 
 \subsubsection{Mesure de l'\'epaisseur d'oxyde de champs} 
-Comparer \`a la mesure pr\'ec\'edente
+
+On mesure l'\'epaisseur de l'oxyde de champs, on retrouve :
+\[
+	e_{SiO_{2}} = 500 nm
+\]
+
+La mesure actuelle est plus pr\'ecise que l'ellipsom\'etrie.
 \subsubsection{Mesure de l'\'epaisseur d'aluminium} 
 
-En d\'eduire la vitesse de d\'ep\^ot.
+L'\'epaisseur d'aluminium est mesur\'ee \`a :
+\[
+	e_{SiO_{2}} = 449.3 \phantom{2} nm
+\] 
 
 \subsection{Mesure de r\'esistivit\'e -- 4 pointes align\'ees}
 
@@ -322,21 +331,47 @@ Nous n'avons pas utilis\'e la technique de mesure de r\'esistivit\'e 4 pointes, 
 \subsection{Mesure de r\'esistivit\'e -- m\'ethode inductive}
 
 \subsubsection {M\'ethodologie }
-
+C'est une technique qui utilise deux bobines. L'une induit des courants de foucault dans notre mat\'eriau, Puis, cela induit un champ magn\'etique, lui m\^eme cr\'eant un courant, dans la bobine plac\'ee \`a proximit\'e. Le courant induit permet alors de r\'ecup\'erer la conductivit\'e sans contact et sans branchement avec le m\'etal.
 
 \subsubsection{Substrat} 
-   r\'esistance de feuille, comparer aux r\'esultats pr\'ec\'edemment obtenus
+
+\begin{itemize}
+\item[-] $R_{carre}$ du substrat : $ 12.4 \phantom{2} \Omega$
+\item[-] Epaisseur de la couche de Si : $0.03 \phantom{2} cm$
+\item[-] R\'esistivit\'e du Substrat : $ 0.372 \phantom{2} \Omega.cm$
+\end{itemize}
+
+
+On obtient bien une r\'esistivit\'e compris entre 0.2 et 0.4 Ohm.cm donn\'ees par le fabricant. 
+
+En lisant sur les graphiques (R\'esistivit\'e/Dopage), on obtient un dopage $Na = 10^{17} \phantom{2}  m^{-3}$.
+
 \subsubsection{ Aluminium}
-r\'esistance de feuille, r\'esistivit\'e ; justifier que la r\'esistance de feuille mesur\'ee est bien celle de
-     l'aluminium
-\subsubsection{Jonction PN}
- (t\'emoin diffus\'e ou implant\'e pleine plaque) \\
-    r\'esistance de feuille.
+
+Calcul de la r\'esistance de feuille :
+
+\begin{itemize}
+\item[-] $R_{carre}$ total de l'\'echantillon $= R_{feuille}$//$R_{substrat}$
+\item[-] $R_{carre}$ total : 8.4 $\Omega$
+\end{itemize}
+
+On a alors :
+\[
+	\frac{1}{R_{totale}} = \frac{1}{R_{feuille}} + \frac{1}{R_{substrat}} 
+\]
+
+Ce qui implique que :
+\[
+	R_{Alu} = 26.04 \Omega
+\]
 
 \clearpage
 
 \section{Conclusion}
 
+Au cours de la s\'eance et afin de r\'ealiser une jonction PN munie d'un point de contact m\'etallique, nous avons d\^u suivre toute une proc\'edure. Chaque \'etape n\'ecessitait d'\^etre pr\'ecis et concentr\'e (pour ne pas inverser deux sous \'etapes ou m\^eme casser une plaque). Au final cette s\'eance montre bien les exigences qu'imposent les proc\'ed\'es d'int\'egration en salle blanche: Chaque \'etape est suivie d'une v\'erification par la mesure et la propret\'e de l'environnement de travail se doit d'\^etre irr\'eprochable. De plus, certaines \'etapes n'appartiennent pas au proc\'ed\'es de fabrication \`a proprement parl\'e mais sont quand m\^eme indispensable, comme le nettoyage des plaques par exemple.
+
+Enfin pour v\'erifier que la jonction PN final r\'epond bien aux attentes, nous proc\'edons \`a une caract\'erisation lors d'une autre s\'eance hors salle blanche.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2017.3.11)  14 MAR 2017 22:44
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2017.3.11)  14 MAR 2017 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -410,32 +410,29 @@ es-timer l'^^Sepaisseur d'aluminium
 [6]
 Missing character: There is no Ã in font cmr10!
 Missing character: There is no ´ in font cmr10!
- [7]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ª in font cmr10!
- [8
+ [7] [8
 
 ] [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 343.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 378.
  [10
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 343.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 378.
  (./CR_TP.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 343.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 343.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 378.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 378.
 Package rerunfilecheck Info: File `CR_TP.out' has not changed.
-(rerunfilecheck)             Checksum: CAE13A2AFDFB6AC620059D061CCE52B8;3082.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
+(rerunfilecheck)             Checksum: F9FC4511B839F5C7B913F3377B717CD0;3011.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 6514 strings out of 495059
- 91872 string characters out of 3182030
- 183752 words of memory out of 3000000
+ 6513 strings out of 495059
+ 91840 string characters out of 3182030
+ 184752 words of memory out of 3000000
  9559 multiletter control sequences out of 15000+200000
  12005 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 29i,13n,35p,574b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,13n,35p,742b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -443,14 +440,15 @@ ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb>
-Output written on CR_TP.pdf (10 pages, 158094 bytes).
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+
+Output written on CR_TP.pdf (10 pages, 167535 bytes).
 PDF statistics:
- 326 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 325 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 65 named destinations out of 1000 (max. 500000)
+ 313 words of extra memory for PDF output out of 10000 (max. 10000000)
 
