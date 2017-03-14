@@ -118,9 +118,9 @@ L'oxydation s\`eche permet un \'enorme gain de temps et d'\'energie.
 Pour supprimer l'oxyde qui se forme naturellement lorsqu'on laisse la plaque \`a l'air libre, on r\'ealise un nettoyage chimique.
 \begin{enumerate}\itemsep -2pt
 \item La plaque est plong\'ee dans un bain de Hf pendant 5 secondes.
-\item Rinçage de la plaque \`a l'eau distill\'e puis purifi\'ee
+\item Rin\c cage de la plaque \`a l'eau distill\'e puis purifi\'ee
 \item Nouvelle oxydation dans un bain d'acide sulfurique + H2O2 pendant 15 mins. 
-\item Rinçage (cf 2/)
+\item Rin\c cage (cf 2/)
 \item Suppression de la couche d'oxyde form\'ee en r\'ealisant \`a nouveau l'\'etape 1/
 \item Rin\c cage (cf 2/)
 \item S\'echage \`a la centrifugeuse
@@ -140,23 +140,12 @@ Pour supprimer l'oxyde qui se forme naturellement lorsqu'on laisse la plaque \`a
 
 \end{itemize}
 
-\subsection{Capacit\'e -- r\'ealisation du di\'electrique}
-
-\begin{itemize}
-
-\item \textbf{Technique utilis\'ee, justifier}
-
-\item \textbf{Profil de temp\'erature, expliquer le r\^ole des \'etapes-cl\'es}
-
-\item \textbf{Calcul de l'\'epaisseur th\'eorique d'oxyde, comparer \`a la valeur mesur\'ee. Quelle est l'\'epaisseur de Si
-        consomm\'e pour former cette couche de SiO2 ?}
-\end{itemize}
-
 \subsection{Diode -- r\'ealisation de la jonction}
 
 \begin{itemize}
 
-\item \textbf{Technique de dopage utilis\'ee, citer une technique de dopage alternative }
+\item \textbf{Technique de dopage utilis\'ee, citer une technique de dopage alternative }\\
+Le dopage employ\'e est un dopage par diffusion de $PoCl_3$. \\ Une autre m\'ethode existe: \textit{dopage par implantation ionique}. 
 
 \item \textbf{Profil de temp\'erature, donn\'ees exp\'erimentales}
 
@@ -166,12 +155,28 @@ Pour supprimer l'oxyde qui se forme naturellement lorsqu'on laisse la plaque \`a
 
 \begin{itemize}
 
-\item \textbf{Description de la technique de d\'ep\^ot}
+\item \textbf{Description de la technique de d\'ep\^ot} \\
+La technique employ\'e est la pulv\'erisation cathodique :
+\begin{itemize} \itemsep -2pt
+\item[-] Tout d'abord les \'echantillons sont plac\'es dans une enceinte sous vide (pression \`a $10^{-7}$ mbar)
+\item[-] Un gaz d'argon est lib\'er\'e et ionis\'e dans l'enceinte. 
+\item[-] Les ions $Ar^{+}$ sont acc\'el\'er\'es par un champ \'electrique pour venir arracher des atomes d'Al sur une surface plac\'ee au dessus des \'echantillons. 
+\item[-] Les atomes d'Al sont acc\'el\'er\'es dans l'autre sens et viennent percuter la surface des \'echantillons pour s'y fixer.
+\end{itemize}
 
+\clearpage
 \item \textbf{Param\`etre de d\'ep\^ots}
 
-\item \textbf{Epaisseur attendue}
+    \noindent \begin{tabular}[!htb]{ | p{3.5cm} | p{3.5cm} | p{3.5cm} | p{3.5cm} | }
+    \hline
+    \textbf{Cible} & Aluminium & \textbf{Pression de travail} & $10^{-7}$ mbar\\ \hline
+    \textbf{Gaz} & Argon & \textbf{Puissance} &\\ \hline
+    \textbf{Couleur du plasma} & Violet & \textbf{Dur\'ee} & 3 min\\
+    \hline
+    \end{tabular}
 
+\item \textbf{Epaisseur attendue}\\
+    On attend une \'epaisseur d'aluminium de 500 nm environ.
 \end{itemize}
 
 \subsection{Photolithogravure}
@@ -180,22 +185,59 @@ Pour supprimer l'oxyde qui se forme naturellement lorsqu'on laisse la plaque \`a
 
 \item \textbf{Mesures}
 
-\textbf{En d\'eduire la s\'electivit\'e de la gravure} 
+    \noindent \begin{tabular}[!htb]{ | p{7cm} | p{7cm} | }
+    \hline
+    \textbf{Epaisseur (r\'esine)} & $1.135 \phantom{2}\mu m$ avant recui, $1.052 \phantom{2} \mu m$ apr\`es \\ \hline
+    \textbf{Epaisseur (r\'esine grav\'ee + alu)} &  $1.580 \phantom{2} \mu m$\\ \hline
+    \textbf{Epaisseur (Alu)} & $0.530 \phantom{2} \mu m$\\
+    \hline
+    \end{tabular}
+
+
+\textbf{En d\'eduire la s\'electivit\'e de la gravure :} \\
+La gravure attaque l'aluminium mais pas la r\'esine.
 
 \item \textbf{Donn\'ees exp\'erimentales}
 
+    \noindent \begin{tabular}[!htb]{ | p{3.5cm} | p{3.5cm} | p{4cm} | p{3.5cm} | }
+    \hline
+    \textbf{R\'esine} & S18 13 & \textbf{Dur\'ee (insolation)}  & 7s\\ \hline
+    \textbf{Vitesse d'\'etalement} & 5000 rpm & \textbf{Dur\'ee (d\'eveloppement)} & 1 min\\ \hline
+    \textbf{T(s\'echage)} & 120 C & \textbf{T(durcissement)} & 130 C\\ \hline
+    \textbf{Dur\'ee (s\'echage)} & 2 min 30 s & \textbf{Dur\'ee(durcissement)} & 2 min 30 s \\
+    \hline
+    \end{tabular}
+
 \begin{itemize}
-\item[o] Epaisseur de r\'esine attendue
-\item[o] Role du s\'echage
-\item[o] Role du recuit
+\item[o] \textbf{Epaisseur de r\'esine attendue} \\
+$1.3 \mu m$
+\item[o] \textbf{Role du s\'echage}\\
+Le s\'echage permet \`a la r\'esine de ne plus \^etre liquide et donc de rester en place sur la plaque, car l'\'epaisseur doit rester constante.
+\item[o] \textbf{Role du recuit}\\
+Le recuit permet, une fois le d\'eveloppement r\'ealis\'e, de rendre la r\'esine r\'esistante \`a la gravure de l'aluminium.
 
 \end{itemize}
 
 \item \textbf{Gravure aluminium}
 
 \begin{itemize}
-\item[o] Donn\'ees exp\'erimentales
-\item[o] En tenant compte de la vitesse de gravure annonc\'ee, estimer l'\'epaisseur d'aluminium
+\item[o] \textbf{Donn\'ees exp\'erimentales}
+
+	\iffalse
+    \noindent \begin{tabular}[!htb]{ | p{7cm} | p{7cm} | }
+    \hline
+    Bain d'attaque & \\ \hline
+    Temp\'erature & \\ \hline
+    Dur\'ee & \\
+    \hline
+    \end{tabular}
+    \fi
+
+Gravure \`a l'acide ac\'etique + acide phosphorique \`a 45 C pendant 3 min environ. A la fin de la gravure, la face avant de la plaque passe d'une couleur argent\'ee \`a une couleur sombre rapidement.
+
+\item[o] \textbf{En tenant compte de la vitesse de gravure annonc\'ee, estimer l'\'epaisseur d'aluminium} \\ 
+        En th\'eorie en 3min on devrait pouvoir retirer $0.9 \mu m$ d'aluminium.
+
 \end{itemize}
 
 \item \textbf{retrait r\'esine (m\'ethode)}
@@ -257,6 +299,22 @@ r\'esistance de feuille, r\'esistivit\'e ; justifier que la r\'esistance de feui
 \item \textbf{Jonction PN (t\'emoin diffus\'e ou implant\'e pleine plaque) \\
     r\'esistance de feuille.}
 \end{itemize}
+
+
+\iffalse
+\subsection{Capacit\'e -- r\'ealisation du di\'electrique}
+
+\begin{itemize}
+
+\item \textbf{Technique utilis\'ee, justifier}
+
+
+\item \textbf{Profil de temp\'erature, expliquer le r\^ole des \'etapes-cl\'es}
+
+\item \textbf{Calcul de l'\'epaisseur th\'eorique d'oxyde, comparer \`a la valeur mesur\'ee. Quelle est l'\'epaisseur de Si
+        consomm\'e pour former cette couche de SiO2 ?}
+\end{itemize}
+\fi 
 
 
 \iffalse
