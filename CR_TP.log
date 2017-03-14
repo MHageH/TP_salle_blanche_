@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2017.3.11)  14 MAR 2017 23:51
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2017.3.11)  14 MAR 2017 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -353,10 +353,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no « in font cmr12!
- (./CR_TP.toc
+) (./CR_TP.toc
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
@@ -426,10 +423,10 @@ Package rerunfilecheck Info: File `CR_TP.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 378.
  ) 
 Here is how much of TeX's memory you used:
- 6513 strings out of 495059
- 91840 string characters out of 3182030
+ 6514 strings out of 495059
+ 91848 string characters out of 3182030
  184752 words of memory out of 3000000
- 9559 multiletter control sequences out of 15000+200000
+ 9560 multiletter control sequences out of 15000+200000
  12005 words of font info for 45 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  29i,13n,35p,742b,392s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -445,7 +442,7 @@ sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 
-Output written on CR_TP.pdf (10 pages, 167535 bytes).
+Output written on CR_TP.pdf (10 pages, 167650 bytes).
 PDF statistics:
  325 PDF objects out of 1000 (max. 8388607)
  298 compressed objects within 3 object streams
