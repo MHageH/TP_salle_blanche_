@@ -68,19 +68,14 @@ Dans notre cas, on va \'etudier la r\'ealisation des 2 parties principaux d'un t
 	\begin{center}
     \noindent \begin{tabular}[!htb]{ | p{7cm} | p{7cm} | }
     \hline
-    Epaisseur ellipso $e^{ellipso}$(SiO2) & \\ \hline
-    Epaisseur profilom\`etre    $e^{profilo}$(SiO2) & \\ 
+    Epaisseur ellipso $e^{ellipso}$(SiO2) & 527 nm\\ \hline
+    Epaisseur profilom\`etre    $e^{profilo}$(SiO2) & 535 nm \\ 
     \hline
     \end{tabular}
     \end{center}
-
-\subsection{Capacit\'e}
-
-Epaisseur oxyde: $e_{oxyde}$ = 
-
+ 
 \subsection{Diode}
 
-Dopant
 \begin{itemize} \itemsep -2pt
 \item[-] R\'esistance de feuille (4 pointes): $R_{carre} = 50.7 \phantom{2} m\Omega$
 \item[-] R\'esistance de feuille (induction): $R_{carre} = 8.4 \phantom{2} \Omega$
@@ -274,7 +269,7 @@ Gravure de r\'esine \`a l'aide d'un plasma d'$O_2$ qui ne va pas attaquer l'alum
 \subsection{Nettoyage face arri\`ere}
 
 \subsubsection{Raison de r\'ealisation}
-Afin de retirer le dopage \`a l'arri\`ere du wafer. Cette \'etape est importante par elle permet d'\'eviter une diffusion des impuret\'es \`a la surface et un meilleur contact, la face arri\`ere \'etant utilis\'ee comme une masse.
+Afin de retirer le dopage \`a l'arri\`ere du wafer. Cette \'etape est importante car elle permet d'\'eviter une diffusion des impuret\'es \`a la surface et un meilleur contact, la face arri\`ere \'etant utilis\'ee comme une masse.
 
 \subsubsection{M\'ethode de mise en place}
 
@@ -289,92 +284,54 @@ Cette m\'ethode fonctionne \`a l'aide d'un r\'eacteur plasma avec deux \'electro
 
 \subsection{Ellipsom\'etrie}
 
-\subsubsection{ Description de la technique }
+\subsubsection{Description de la technique }
 
-L'ellipsom\'etrie permet de mesurer de manière non-destructive l'\'epaisseur de fines couches de di\'electriques. On envoie une onde monochromatique plane polaris\'ee rectilignement au niveau de la cible, puis on mesure le d\'ephasage ainsi que le rapport des amplitudes entre l'onde incidente et l'onde r\'efl\'echie. 
+L'ellipsom\'etrie permet de mesurer de mani\`ere non-destructive l'\'epaisseur de fines couches de di\'electriques. On envoie une onde monochromatique plane polaris\'ee rectilignement au niveau de la cible, puis on mesure le d\'ephasage ainsi que le rapport des amplitudes entre l'onde incidente et l'onde r\'efl\'echie. 
 
 \subsubsection{Mesure de l'\'epaisseur d'oxyde de champs}
-Au moins 5 points de mesure diff\'erents, calcul de moyenne et d\'eviation standard
-\subsubsection{Mesure de l'\'epaisseur d'oxyde mince (capacit\'e)}
 
+Apr\`es manipulation nous obtenons 5 valeurs d'\'epaisseur :
+\begin{itemize} \itemsep -6pt
+\item[-] 526.75 nm
+\item[-] 521.29 nm
+\item[-] 524.87 nm
+\item[-] 522.20 nm 
+\item[-] 529.75 nm
+\end{itemize}
+On en d\'eduit une moyenne de 524.97 nm.
 
 \subsection{Profilom\'etrie}
 
-\begin{itemize}
-\item \textbf{ D\'ecrire la technique  }
-\item \textbf{ Mesure de l'\'epaisseur d'oxyde de champs \\ 
- Comparer \`a la mesure pr\'ec\'edente}
-\item \textbf{ Mesure de l'\'epaisseur d'aluminium. En d\'eduire la vitesse de d\'ep\^ot.}
-\end{itemize}
+\subsubsection{Description de la m\'ethode}
+
+La profilom\'etrie est une technique pour mesurer la rugosit\'e d'une surface, ou même sa micro-g\'eom\'etrie. Dans notre cas, une pointe tr\`es fine vient se poser sur un bloc qu'on d\'esire mesurer l'\'epaisseur. Ces blocs sont notamment les plots des diodes qu'on a \'etablie dans les d\'emarches pr\'ec\'edentes. Cette technique est utilis\'ee dans plusieurs \'etapes (apr\`es la gravure humide ainsi que le nettoyage RIE face arri\`ere). 
+
+\subsubsection{Mesure de l'\'epaisseur d'oxyde de champs} 
+Comparer \`a la mesure pr\'ec\'edente
+\subsubsection{Mesure de l'\'epaisseur d'aluminium} 
+
+En d\'eduire la vitesse de d\'ep\^ot.
 
 \subsection{Mesure de r\'esistivit\'e -- 4 pointes align\'ees}
 
-\begin{itemize}
-\item \textbf{ D\'ecrire la technique  }
-\item \textbf{ Substrat \\ 
-  Tableau de mesure, graphique, r\'esistance de feuille, r\'esistivit\'e, dopage}
-\item \textbf{ Jonction PN (t\'emoin diffus\'e pleine plaque ou t\'emoin implant\'e pleine plaque) \\ 
-Tableau de mesure, graphique, r\'esistance de feuille}
-\end{itemize}
+\subsubsection{Description de la m\'ethode}
+La mesure de r\'esistivit\'e 4 pointes consiste \`a pr\'elever l'intensit\'e sur l'ensemble de l'\'echantillon, et la tension sur une portion de l'\'echantillon. Contrairement \`a une mesure classique de r\'esistance, celle-ci permet de mesurer la r\'esistance r\'eelle de l'\'echantillon (sans consid\'erer les r\'esistances de contact avec les fils). On utilise notamment cette technique pour mesurer des r\'esistivit\'e tr\`es faibles, pour lesquelles les r\'esistances de contacts ne sont pas n\'egligeables par rapport \`a celle de l'\'echantillon.  
 
+Nous n'avons pas utilis\'e la technique de mesure de r\'esistivit\'e 4 pointes, mais la m\'ethode par induction. 
     
+\subsection{Mesure de r\'esistivit\'e -- m\'ethode inductive}
 
-\subsection{Mesure de r\'esistivit\'e – m\'ethode inductive}
+\subsubsection {M\'ethodologie }
 
-\begin{itemize}
-\item \textbf{ D\'ecrire la technique  }
-\item \textbf{ Substrat \\ 
-   r\'esistance de feuille, comparer aux r\'esultats pr\'ec\'edemment obtenus}
-\item \textbf{ Aluminium \\ 
+
+\subsubsection{Substrat} 
+   r\'esistance de feuille, comparer aux r\'esultats pr\'ec\'edemment obtenus
+\subsubsection{ Aluminium}
 r\'esistance de feuille, r\'esistivit\'e ; justifier que la r\'esistance de feuille mesur\'ee est bien celle de
-     l'aluminium}
-\item \textbf{Jonction PN (t\'emoin diffus\'e ou implant\'e pleine plaque) \\
-    r\'esistance de feuille.}
-\end{itemize}
-
-
-\iffalse
-\subsection{Capacit\'e -- r\'ealisation du di\'electrique}
-
-\begin{itemize}
-
-\item \textbf{Technique utilis\'ee, justifier}
-
-
-\item \textbf{Profil de temp\'erature, expliquer le r\^ole des \'etapes-cl\'es}
-
-\item \textbf{Calcul de l'\'epaisseur th\'eorique d'oxyde, comparer \`a la valeur mesur\'ee. Quelle est l'\'epaisseur de Si
-        consomm\'e pour former cette couche de SiO2 ?}
-\end{itemize}
-\fi 
-
-
-\iffalse
-
-\subsection{Observation zones actives et nettoyage des plaques}
-
-\subsection{Oxydation thermique}
-
-\subsection{Mod\'elisation dopage}
-
-\subsection{\'Etude dopage : R-carr\'e}
-
-\subsection{Retrait du verre de phosphore}
-
-\subsection{Pr\'esentation Pulv\'erisation cathodique}
-
-\subsection{D\'epot Aluminium : R-carr\'e Alu }
-
-\section{Deuxi\`eme sc\'eance}
-
-\subsection{Etalement r\'esine, photolithographie}
-
-\subsection{Gravure humide de l'aluminium}
-
-\subsection{Nettoyage RIE face arri\`ere}
-
-\subsection{Mesure de motif profilom\`etre}
-\fi
+     l'aluminium
+\subsubsection{Jonction PN}
+ (t\'emoin diffus\'e ou implant\'e pleine plaque) \\
+    r\'esistance de feuille.
 
 \clearpage
 
